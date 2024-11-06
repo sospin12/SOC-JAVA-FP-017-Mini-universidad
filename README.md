@@ -1,18 +1,28 @@
-## Getting Started
+## PRACTICE 1: UNIVERSITARY STIDENT MANAGEMENT SYSTEM
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Program to create a student calses management system. the students are going to take just one course for each semester.
 
-## Folder Structure
+### CONCEPTS USED:
+1. Object oriented programing. inheritance, polimorfism, abstraction and encapsulation. Class, Methods, atributes,
+2. Array manipulation.
+3. Strings. and its methods.
+4. Data management.
+5. Menu creation.
 
-The workspace contains two folders by default, where:
+Other concepts:
+5. Ternary evaluator.
+6. Regular expresions.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### HISTORY METHOD
+1. HISTORY 1: Application menu (main menu)
+2. HISTORY 2: Semester.
+3. HISTORY 3: Add course.
+4. HISTORY 4: 
+5. HISTORY 5: Delete course.
+6. HISTORY 6: Show courses.
+7. HISTORY 7: Add student.
+8. HISTORY 8: Add student.
+9. HISTORY 9: Delete student.
+10. HISTORY 10: Show students.
+11. HISTORY 11: End program. 
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).

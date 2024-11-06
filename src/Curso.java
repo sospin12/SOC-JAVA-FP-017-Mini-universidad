@@ -10,7 +10,7 @@ public class Curso extends Semestre{
     private List<Estudiante> estudiantes;
     // private String codigoSemestre;
 
-
+    // CONSTRUCTORS
     public Curso(String nombre, int numeroEstudiantes, Semestre semestre){
         if (numeroEstudiantes<0&&semestre.isEstadoSemestre()==false) {
             System.out.println("No se puede crear el curso.");            
@@ -42,11 +42,10 @@ public class Curso extends Semestre{
     
 
 
-    //METODOS
+    // METHODS
     public void agregarEstudiante(Estudiante estudiante){
         estudiantes.add(estudiante);
     }
-
 
 
 }

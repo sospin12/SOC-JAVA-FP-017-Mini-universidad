@@ -1,14 +1,17 @@
-// import java.util.Scanner;
+// import java.util.Scannerr;
 import java.util.List;
 
 import java.util.ArrayList;
 
 public class Semestre {
 
+    // ATRIBUTES
     private boolean estadoSemestre = false;
     private int semestreAño;
     private int año;
     private List<Curso> cursos;
+
+    // COSNTRUCTORS
 
     public Semestre(int año, int semestreAño) {
         this.semestreAño = semestreAño;
@@ -17,9 +20,7 @@ public class Semestre {
         this.cursos = new ArrayList<>();
     }
 
-    public Semestre(){
-        
-    }
+    public Semestre(){}
 
     // GETTERS
     public int getAño() {return año;}
@@ -28,24 +29,18 @@ public class Semestre {
     public List<Curso> getCursos() {return cursos;}
     
     
-    
     //SETTERS
     public void setEstadoSemestre(boolean estadoSemestre) {this.estadoSemestre = estadoSemestre;}
     public void setSemestreAño(int semestreAño) {this.semestreAño = semestreAño;}
     public void setAño(int año) {this.año = año;}
 
 
-    
-    // public void setSemestreAño(int semestreAño) {this.semestreAño = semestreAño;}
-
-
     // METODOS
-    public void cerrar() {estadoSemestre = false;}
+    public void cerrar() {estadoSemestre = false;} // CERRAR SEMESTRE
 
-    public void verDetalles() {
+    public void verDetalles() { 
         if (estadoSemestre) {
-            System.out.println(
-                    "\n" + (getSemestreAño() < 2 ? "Primer semestre" : "Segundo semestre") + " del " + getAño());
+            System.out.println("\n" + (getSemestreAño() < 2 ? "Primer semestre" : "Segundo semestre") + " del " + getAño());
             // Evaluador ternario
         } else {
             System.out.println("\nNo existe semestre");
