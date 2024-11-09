@@ -21,6 +21,8 @@ public class App {
                         "DESCRIPCION\r\n" + //
                         "   Aplicación para gestionar una universidad simple");
 
+        System.out.println("Código realizado por: Santiago Ospina Cabarcas");
+
         Menu menu = new Menu();
         menu.menu1();
         

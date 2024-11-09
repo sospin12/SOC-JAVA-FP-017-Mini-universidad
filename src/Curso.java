@@ -12,7 +12,7 @@ public class Curso extends Semestre{
 
     // CONSTRUCTORS
     public Curso(String nombre, int numeroEstudiantes, Semestre semestre){
-        if (numeroEstudiantes<0&&semestre.isEstadoSemestre()==false) {
+        if (numeroEstudiantes < 0 && semestre.isEstadoSemestre()==false) {
             System.out.println("No se puede crear el curso.");            
         } else{
             this.numeroEstudiantes=numeroEstudiantes;
