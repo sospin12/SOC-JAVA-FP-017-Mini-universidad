@@ -23,7 +23,6 @@ public class Curso extends Semestre{
         }
 
     }
-
     public Curso(){}
 
     // GETTERS
@@ -45,6 +44,7 @@ public class Curso extends Semestre{
     // METHODS
     public void agregarEstudiante(Estudiante estudiante){
         estudiantes.add(estudiante);
+        setNumeroEstudiantes(estudiantes.size());
     }
 
 
